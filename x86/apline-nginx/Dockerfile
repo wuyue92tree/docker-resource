@@ -1,4 +1,4 @@
-FROM apline:latest
+FROM alpine:latest
 MAINTAINER wuyue92tree@163.com
 
 RUN apk update && apk add curl bash tree tzdata \
